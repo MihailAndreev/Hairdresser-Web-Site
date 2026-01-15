@@ -431,7 +431,9 @@ footer .container {
 
     .services h2,
     .contact h2,
-    .about h2 {
+    .about h2,
+    .gallery h2,
+    .quick-links h2 {
         font-size: 2rem;
     }
 
@@ -440,7 +442,9 @@ footer .container {
         text-align: center;
     }
 
-    .services-grid {
+    .services-grid,
+    .gallery-grid,
+    .links-grid {
         grid-template-columns: 1fr;
     }
 }
